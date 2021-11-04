@@ -1,0 +1,64 @@
+/* sfondo */
+body {
+background: url(background.jpg);
+background-size: cover ;
+background-position: top;
+background-repeat: no-repeat;
+color: white;
+font-family: 'Ubuntu', sans-serif;
+
+}
+/* contenitore del nav e del main */
+.container{
+  width:55%;
+  margin:auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5%;
+  margin-top: 2.8%;
+  border-radius: 2.5%;
+}
+/* allinea logo,slogan e il menu al centro  */
+header,nav{
+  text-align: center;
+}
+/* grandezza logo */
+.logo{
+  width: 20%;
+}
+/* slogan colore e posizionamento */
+header>h1{
+  color: lime;
+  margin-bottom: 0.5%;
+  margin-top: 0.5%;
+}
+/* colore, grandezza menu */
+.menu {
+  background-color: lime;
+  width: 96%;
+  padding: 1%;
+}
+/* inserimento della freccia verso destra prima dell'indirizzo */
+.indirizzo1:before,.indirizzo2::before,.indirizzo3::before{
+  content: "\21A6"
+}
+/* Stato di ricarica del primo monopattino */
+.Ricarica1{
+  width:31%;
+    padding: 1.3%;
+    background:sandybrown;
+    border-radius: 4px;
+}
+/* Stato di ricarica del secondo monopattino */
+.Ricarica2{
+  width:60%;
+    padding: 1.3%;
+    background:limegreen;
+    border-radius: 4px;
+}
+/* Stato di ricarica del terzo monopattino */
+.Ricarica3{
+  width:12%;
+    padding: 1.3%;
+    background:crimson;
+    border-radius: 4px;
+}
